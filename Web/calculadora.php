@@ -13,7 +13,7 @@ $nahual = include 'backend/buscar/conseguir_nahual_nombre.php';
 $energia = include 'backend/buscar/conseguir_energia_numero.php';
 $haab = include 'backend/buscar/conseguir_uinal_nombre.php';
 $cuenta_larga = include 'backend/buscar/conseguir_fecha_cuenta_larga.php';
-$cholquij = $nahual." ". strval($energia);
+$cholquij = $nahual["nombre"]." ". strval($energia);
 
 ?>
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ $cholquij = $nahual." ". strval($energia);
                             <tbody>
                                 <tr>
                                     <th scope="row">Calendario Haab</th>
-                                    <td ><?php echo isset($haab) ? $haab : ''; ?></td>
+                                    <td ><?php echo isset($haab) ? $haab["nombre"] : ''; ?></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">Calendario Cholquij</th>

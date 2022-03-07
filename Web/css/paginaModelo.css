@@ -25,6 +25,10 @@ h5{
   text-align: center;
 }
 
+hr{
+  color: #52BE80;
+}
+
 #portafolio #portafolio-flters li {
   cursor: pointer;
   margin: 0 10px;
@@ -99,7 +103,7 @@ h5{
 }
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #52BE80;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -265,4 +269,43 @@ h5{
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+}
+
+.imgmaya{
+  width: 200px;
+  height: 200px;
+
+}
+.calendario{
+  display: flex;
+  justify-content: center;
+}
+.imgrueda1{
+  animation: rotation1 30s infinite linear;
+
+}
+
+.imgrueda2{
+  position: relative;
+  top: 100px;
+  animation: rotation2 22s infinite linear;
+
+}
+
+@keyframes rotation1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation2 {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }

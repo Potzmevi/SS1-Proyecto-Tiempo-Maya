@@ -1,7 +1,19 @@
-#formulario {
-    background: rgba(63, 64, 66, 0.7);
+#box{
+    display: flex;
+    flex-direction: column;
+    background: #343434;
     transition: 0.5s;
     width: 50%;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+#formulario {
+    display: flex;
+    justify-content: space-between;
+}
+#imagenes{
+    display: flex;
+    justify-content: space-around;
 }
 #formulario h1{
     margin: 30px;

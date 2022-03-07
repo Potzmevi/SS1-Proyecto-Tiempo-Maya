@@ -76,7 +76,10 @@ $elementos = $conn->query("SELECT nombre FROM tiempo_maya.pagina WHERE categoria
 
 
 
-
+<div class="calendario">
+    <img style="width: 500px; height: 500px;" src="../imgs/Rueda1.png" alt="rueda1" class="imgrueda1">
+    <img style="width: 250px; height: 250px;" src="../imgs/rueda2.png" alt="rueda2" class="imgrueda2">
+</div>
 
     <?php include "../blocks/bloquesJs.html" ?>
 
